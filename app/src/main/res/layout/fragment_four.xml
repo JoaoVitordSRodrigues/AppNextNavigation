@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fourFragment"
+    android:background="@color/teal_200"
+    android:id="@+id/fragFour">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="4"
+        android:layout_gravity="center_horizontal"
+        android:textSize="250dp"
+        android:textColor="#FFEB3B"
+        android:layout_marginTop="180dp"
+        />
+
+    <Button
+        android:id="@+id/btnPar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="550dp"
+        android:text="Próxima página" />
+
+</FrameLayout>
